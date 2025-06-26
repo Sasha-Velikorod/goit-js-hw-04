@@ -10,7 +10,7 @@ function calcAverageCalories(days) {
   if (0 !== days.length) {
     return totalCalories;
   } else if (0 === days.length) {
-    return "0";
+    return days.length;
   }
 }
 
